@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden; /* disables scrolling */
+}
+
 .heading{
     height: 5rem;
     background-color: #005461;
@@ -64,5 +70,6 @@
     background-color: #005461;
     color: #fff ;
     border-radius: 3rem;
+
 
 }
